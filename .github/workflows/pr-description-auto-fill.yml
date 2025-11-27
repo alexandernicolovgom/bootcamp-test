@@ -23,6 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           dotnet tool install -g Microsoft.dotnet-interactive
+          mkdir -p ~/.local/share/jupyter/kernels
           dotnet interactive jupyter install
       
       - name: Create .env file
