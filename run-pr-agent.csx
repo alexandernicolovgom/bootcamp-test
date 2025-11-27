@@ -89,8 +89,8 @@ var agent = new ChatCompletionAgent
     Instructions = """
     Fill out the PR description with:
     1. What is the change?
-    2. Details on code changes
-    3. Code areas to focus on (file paths only)
+    2. Detailed explanation of the code changes
+    3. Code areas to focus on (file paths only with links to the files in the PR)
     4. Related PRs (search using Jira ID if found)
     5. Jira Ticket Info (extract from branch, link to https://ungerboeck.atlassian.net/browse/[ID])
     
