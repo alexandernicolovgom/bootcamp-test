@@ -2,7 +2,7 @@ name: Auto-Fill PR Description
 
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
 
 jobs:
   fill-pr-description:
